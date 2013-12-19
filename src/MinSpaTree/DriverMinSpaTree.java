@@ -18,7 +18,7 @@ public class DriverMinSpaTree {
         String nombreNodo;
         for (int i = 0; i < numeroNodos; ++i) {
             System.out.println("Entra el nombre del nodo " + (i+1));
-            nombreNodo = sc.nextLine();
+            nombreNodo = sc.next();
             nombres[i] = nombreNodo;
             System.out.println("Ahora las distancias de los nodos, respector a los otros [0....inf]");
             for (int j = 0; j < numeroNodos; ++j) {
